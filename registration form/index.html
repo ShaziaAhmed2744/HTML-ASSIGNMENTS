@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+    <html>
+
+        <head>
+        
+                    <title> Simple Form</title>
+        
+        </head>
+        
+        <body>
+        
+        <h1>Simple form Using HTML & CSS </h1>
+        
+                    <form name=”myform” method=”post” onSubmit=”return validate()”>
+        
+                                <table align=”center” cellpadding=”10″>
+        
+                   
+        
+                                <tr>
+        
+                                            <td> First Name </td>
+        
+                                            <td> <input type=”text” name=”fname” maxlength=”30″/></td>
+        
+                                            </tr>
+   
+        
+                    <tr>
+        
+                                <td> Last Name </td>
+        
+                                <td> <input type=”text” name=”lname” maxlength=”30″/></td>
+        
+                    </tr>             
+        
+     
+        
+        <tr>
+        
+                                <td> Date of Birth </td>
+        
+                                <td> <input type=”date” name=”date” id=”date” min=”1981-01-01″/></td>
+        
+                    </tr>                                     
+        
+ 
+        
+                    <tr>
+        
+                                <td> Email ID </td>
+        
+                                <td> <input type=”text” name=”email” maxlength=”100″/></td>
+        
+                    </tr>
+        
+     
+        
+                    <tr>
+        
+                                <td> Phone </td>
+        
+                                <td> <input type=”text” name=”phone”/>    </td>
+        
+                    </tr> 
+        
+        <!——— Gender radio button——>
+        
+                    <tr>
+        
+                                <td> Gender </td>
+        
+                                <td> Male <input type=”radio” name=”gender” value=”male”/>
+        
+                                            Female <input type=”radio” name=”gender” value=”female”/></td>
+        
+                                </tr>
+        
+        <!——— Address ——>
+        
+                    <tr>
+        
+                                <td>Address</td>
+        
+                                <td><textarea name=”address” placeholder=”Enter Address” cols=”50″></textarea></td>
+        
+                    </tr>             
+        
+        <!——— State select tag——>
+        
+                    <tr>
+        
+                                <td>State</td>
+        
+                                <td>
+        
+        <select id=”state” name=”state”>
+        
+                                <option value=”Select a state”>Select a state</option>
+        
+                                <option value=”assam”>Assam</option>
+        
+                                <option value=”manipur”>Manipur</option>
+        
+                                <option value=”delhi”>Delhi</option>
+        
+                                <option value=”kolkata”>Kolkata</option>
+        
+                                </select>
+        
+                                </td>
+        
+                    </tr>
+        
+        <!——— Country——>
+        
+        <tr>
+        
+                                <td> COuntry</td>
+        
+                                <td> <input type=”text” value=”India” name=”country” readonly=”readonly”/></td>
+        
+                    </tr>
+        
+        <!——— Hobbies checkbox——>
+        
+                    <tr>
+        
+                                <td>Hobbies </td>
+        
+                                <td> Drawing : <input type=”checkbox” name=”hobby”  id=”hobby” value=”draw”/>
+        
+                                            Playing : <input type=”checkbox” name=”hobby” id=”hobby” value=”play”/>
+        
+                                            Swimming : <input type=”checkbox” name=”hobby” id=”hobby” value=”swim”/>
+        
+                                            travelling: <input type=”checkbox” name=”hobby” id=”hobby” value=”travel”/>
+        
+                                </td>
+        
+        </tr>
+        
+        <!—- Submit——->
+        
+        <tr>
+        
+                                <td colspan=”2″align=”center”>
+        
+                                <input type=”submit” name=”submit” value=”Submit”/>
+        
+                                </td>
+        
+                    </tr>
+        
+        </table>
+        
+        </form>
+        
+        </body>
+        
+        </html>
